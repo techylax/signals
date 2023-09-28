@@ -1,0 +1,15 @@
+clear all
+[A]=jounynote(1,49);
+[B]=jounynote(1,51);
+[C]=jounynote(1,40);
+[D]=jounynote(1,42);
+[E]=jounynote(1,44);
+[F]=jounynote(1,45);
+[G]=jounynote(1,47);
+[Gp]=jounynote(0.5,47);
+[Fpp]=jounynote(0.25,45);	
+
+y= [A B C D E F G];
+soundsc(y,44100);
+
+C C	G G	A A	G F	F E	E D	D	C 	G	G	F	F	E	E	D 	G	G	F	F	E	E  Fp	D	C	C	G	G	A	A	Gp	F	F	E	E	Dpp	E"	Cp
